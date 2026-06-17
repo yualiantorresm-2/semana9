@@ -1,0 +1,28 @@
+==================================================================
+      ARQUITECTURA Y COMPONENTES ESENCIALES DEL SERVIDOR
+==================================================================
+
+Sistema operativo
+Es el software base que administra los recursos físicos de la máquina (CPU, RAM, red). 
+Actúa como la plataforma e intermediario sobre la cual se ejecutan todos los servicios 
+y entornos de desarrollo, garantizando la seguridad y estabilidad del entorno.
+
+Node.js
+Es un entorno de ejecución de código abierto que permite correr JavaScript en el lado 
+del servidor. Procesa peticiones de forma asíncrona y está optimizado para construir 
+aplicaciones de red rápidas, escalables y con un alto rendimiento de entrada/salida.
+
+Aplicación server.js
+Es el archivo de código fuente principal donde reside la lógica del backend del proyecto. 
+Aquí se importan los módulos (como Express), se definen las rutas o endpoints (como /estado) 
+y se configuran las respuestas que la plataforma enviará a los usuarios.
+
+Puerto
+Es un punto final de comunicación lógico o canal virtual que el sistema operativo asigna 
+a un servicio de red específico. Permite que el servidor diferencie y reciba correctamente 
+las solicitudes web entrantes que los clientes dirigen hacia su dirección.
+
+Logs
+Son archivos de registro de texto que graban cronológicamente las actividades del servidor. 
+Almacenan los eventos operativos, accesos y errores del backend, facilitando a los 
+desarrolladores la auditoría de seguridad y el diagnóstico oportuno de fallas.

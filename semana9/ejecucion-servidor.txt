@@ -1,0 +1,38 @@
+==================================================================
+   MONITOREO Y DOCUMENTACIÓN DE EJECUCIÓN DEL SERVIDOR
+==================================================================
+
+1. ¿QUÉ OCURRE CUANDO EJECUTAS 'node server.js'?
+------------------------------------------------------------------
+Al ejecutar este comando, el entorno de ejecución de Node.js carga 
+e interpreta el código fuente del archivo `server.js`. El proceso 
+asigna memoria, inicializa los módulos requeridos (como Express) y 
+configura los manejadores de rutas. Finalmente, el servidor abre 
+un socket de red para enlazarse a un puerto lógico específico (por 
+ejemplo, el puerto 3000) y entra en un ciclo de eventos activo, 
+quedando a la espera ("escuchando") de peticiones HTTP entrantes.
+
+
+2. ¿QUÉ MENSAJE APARECE EN LA TERMINAL?
+------------------------------------------------------------------
+Cuando el servidor se levanta correctamente y el callback de la 
+función `.listen()` se ejecuta, se imprime un mensaje de confirmación 
+en la consola. El formato estándar es:
+
+Servidor corriendo en el puerto 3000
+
+
+3. ¿QUÉ SUCEDE CUANDO VISITAS LA RUTA '/estado'?
+------------------------------------------------------------------
+Cuando un cliente (como un navegador web, Postman o una petición 
+fetch desde el frontend) realiza una solicitud HTTP GET hacia la 
+dirección `http://localhost:3000/estado`, el servidor Express captura 
+la petición, procesa el endpoint correspondiente y responde con un 
+código de estado 200 OK, devolviendo un objeto JSON que certifica la 
+estabilidad del servicio.
+
+Ejemplo de la respuesta estructurada recibida:
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}

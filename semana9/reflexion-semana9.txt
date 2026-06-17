@@ -1,0 +1,16 @@
+==================================================================
+        REFLEXIÓN: ESTABILIDAD Y SEGURIDAD EN EL SERVIDOR
+==================================================================
+
+La estabilidad y la seguridad de un servidor son las condiciones críticas 
+que garantizan la viabilidad y la permanencia de cualquier plataforma comunitaria. 
+Cuando un colectivo ciudadano utiliza herramientas digitales para gestionar reportes, 
+coordinar acciones o consultar datos de veeduría, la infraestructura debe responder 
+de forma continua; un servidor inestable que experimente caídas constantes destruye 
+la usabilidad del sistema y ahuyenta la participación por pura frustración operativa. 
+Asimismo, la seguridad en el backend protege el entorno de inyecciones maliciosas o 
+accesos no autorizados que pretendan alterar los registros, manipular resultados o 
+exponer logs sensibles de la actividad de los usuarios. Garantizar que la aplicación 
+funcione de manera predecible en su puerto y bajo un sistema operativo protegido es 
+lo que blinda la integridad de los datos, resguarda el esfuerzo organizativo del grupo 
+y consolida una relación de confianza legítima y duradera entre la tecnología y la comunidad.
